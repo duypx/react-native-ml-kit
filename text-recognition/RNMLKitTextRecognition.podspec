@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   # s.license    = { :type => "MIT", :file => "LICENSE" }
   s.authors      = { "DuyPX" => "duy.kull@gmail.com" }
   s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => "https://github.com/duypx/react-native-ml-kit", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/duypx/react-native-ml-kit.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,c,cc,cpp,m,mm,swift}"
   s.requires_arc = true
